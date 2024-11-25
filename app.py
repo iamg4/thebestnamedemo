@@ -8,8 +8,8 @@ app = Flask(__name__)
 # Configuração de logs
 logging.basicConfig(level=logging.DEBUG)
 
-# URL base do stream da RTP1
-BASE_URL = "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/"
+# URL base do stream da RTP2
+BASE_URL = "https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/"
 
 @app.route('/')
 def index():
